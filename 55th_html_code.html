@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table with html tag inside</title>
+    <style>
+        table,th,td{
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td>
+                <p>this is a paragraph</p>
+                <p>this is another paragraph</p>
+            </td>
+            <td>
+                 <p>this cells contain a table</p>
+                 <table>
+                     <tr>
+                         <td>A</td>
+                         <td>B</td>
+                     </tr>
+                     <tr>
+                         <td>C</td>
+                         <td>D</td>
+                     </tr>
+                 </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>this cell contain a list</p>
+                <ul>
+                    <li>apple</li>
+                    <li>banana</li>
+                    <li>pineapples</li>
+                </ul>
+            </td>
+            <td>
+                <p>HELLO</p>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cell that span two rows</title>
+    <style>
+        table,th,td{
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 5px;
+        }
+        th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Cell that spans two rows</h2>
+    <p>To make a cell span more than one row, use the rowspan    attribute.</p>
+    <table style="width: 100%;">
+        <tr>
+            <th>Name</th>
+            <td>bill gates</td>
+        </tr>
+        <tr>
+           <th rowspan="2">telephone</th>
+           <td>4313131343133431</td> 
+        </tr>
+        <tr>
+            <td>
+                554444224
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
